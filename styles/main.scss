@@ -1,4 +1,6 @@
 body {
+  width: 80%;
+  margin: 0 auto;
   margin-top: 7rem;
   #content {
     border: 1px solid black;
@@ -15,11 +17,15 @@ h1 {
   font-family: avenir;
 }
 
+
 .tab-navigation {
   text-align: center;
   a {
     text-decoration: none;
     padding: 1rem;
     border: 1px solid black;
+  }
+  a:focus {
+    background: yellow;
   }
 }

@@ -1,4 +1,6 @@
 body {
+  width: 80%;
+  margin: 0 auto;
   margin-top: 7rem; }
   body #content {
     border: 1px solid black;
@@ -17,5 +19,7 @@ h1 {
     text-decoration: none;
     padding: 1rem;
     border: 1px solid black; }
+  .tab-navigation a:focus {
+    background: yellow; }
 
 /*# sourceMappingURL=main.css.map */
